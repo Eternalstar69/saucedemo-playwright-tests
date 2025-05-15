@@ -85,5 +85,6 @@ Dependencies
 Notes
 ** Test credentials are available directly on the SauceDemo login page.
 ** All users use the same password: secret_sauce.
+-----
 Author
 Theratep Krataytong
