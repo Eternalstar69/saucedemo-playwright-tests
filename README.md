@@ -1,7 +1,7 @@
 # SauceDemo Web Automation Testing
 
 Automated end-to-end tests for the [SauceDemo](https://www.saucedemo.com/) web application using Playwright with TypeScript.  
-This project follows the Page Object Model (POM) design pattern to ensure clean, maintainable, and scalable test code.
+This intern exam follows the Page Object Model (POM) design pattern to ensure clean, maintainable, and scalable test code.
 
 ## Project Structure
 
@@ -79,8 +79,11 @@ All test scenarios are organized inside the tests/ directory.
 Clear separation between test logic and page element locators/actions via the POM structure.
 
 Dependencies
--Playwright
--TypeScript
+---
+
+-> Playwright
+
+-> TypeScript
 
 Notes
 ** Test credentials are available directly on the SauceDemo login page.
