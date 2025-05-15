@@ -6,7 +6,7 @@ This project follows the Page Object Model (POM) design pattern to ensure clean,
 ## Project Structure
 
 WEB AUTOMATION TESTING WITH PLAYWRIGHT/
-
+```
 ├── playwright.config.ts        # Playwright configuration file
 ├── package.json                # Project dependencies
 ├── pages/                      # Page Object Model classes for each page
@@ -20,7 +20,7 @@ WEB AUTOMATION TESTING WITH PLAYWRIGHT/
 │   ├── login.test.ts
 │   └── purchase.spec.ts
 └── README.md                   # Project documentation
-
+```
 
 ## How to Run Tests
 
