@@ -45,38 +45,46 @@ npx playwright test tests/purchase.spec.ts
 npx playwright show-report
 ```
 
-Test Scenarios
-Login Test
-1. Verify successful login with valid credentials.
-2. Verify error message is displayed with invalid credentials.
+## Test Scenarios
+  1.Login Test
 
-End-to-End Purchase Test
-1. Login with valid credentials.
+  - Verify successful login with valid credentials.
+    
+  - Verify error message is displayed with invalid credentials.
 
-2. Add a product to the cart.
+  2.End-to-End Purchase Test
+  
+  - Login with valid credentials.
 
-3. Complete the checkout process.
+  - Add a product to the cart.
 
-4. Verify the "Thank you for your order!" message is displayed on the confirmation page.
+  - Complete the checkout process.
+
+  - Verify the "Thank you for your order!" message is displayed on the confirmation page.
+    
+---
 
 Design Decisions
+---
 => Page Object Model (POM)
 All page elements and actions are separated into individual classes under the pages/ directory.
 This improves code readability, maintainability, and makes it easier to scale the test framework.
 
-=>Test Configuration
+Test Configuration
+---
 
-Configured testDir and testMatch in playwright.config.ts to locate test files with .test.ts and .spec.ts extensions.
+=> Configured testDir and testMatch in playwright.config.ts to locate test files with .test.ts and .spec.ts extensions.
 
-Enabled parallel execution (fullyParallel: true) to reduce test execution time.
+=> Enabled parallel execution (fullyParallel: true) to reduce test execution time.
 
-Configured html reporter for clean and visual test result reporting.
+=> Configured html reporter for clean and visual test result reporting.
 
-=>Test Structure
+Test Structure
+---
 
-All test scenarios are organized inside the tests/ directory.
+=> All test scenarios are organized inside the tests/ directory.
 
-Clear separation between test logic and page element locators/actions via the POM structure.
+=> Clear separation between test logic and page element locators/actions via the POM structure.
 
 Dependencies
 ---
@@ -89,5 +97,5 @@ Notes
 ** Test credentials are available directly on the SauceDemo login page.
 ** All users use the same password: secret_sauce.
 -----
-Author
+Author :
 Theratep Krataytong
