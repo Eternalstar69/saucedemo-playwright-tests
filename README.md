@@ -3,21 +3,7 @@
 Automated end-to-end tests for the [SauceDemo](https://www.saucedemo.com/) web application using Playwright with TypeScript.  
 This intern exam follows the Page Object Model (POM) design pattern to ensure clean, maintainable, and scalable test code.
 
- Setup Instructions
- ---
- 1. Clone this repository 
-```
-git clone https://github.com/Eternalstar69/saucedemo-playwright-tests.git 
-```
- 2. Navigate to the project directory 
-```
-cd saucedemo-playwright-tests
-```
- 3. Install project dependencies
-```
-npm install
-```
- Project Structure
+Project Structure
 ---
 
 ```
@@ -34,6 +20,21 @@ npm install
 │   ├── login.test.ts
 │   └── purchase.spec.ts
 └── README.md                   # Project documentation
+```
+
+ Setup Instructions
+ ---
+ 1. Clone this repository 
+```
+git clone https://github.com/Eternalstar69/saucedemo-playwright-tests.git 
+```
+ 2. Navigate to the project directory 
+```
+cd saucedemo-playwright-tests
+```
+ 3. Install project dependencies
+```
+npm install
 ```
 
  How to Run Tests
